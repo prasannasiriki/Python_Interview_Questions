@@ -1,0 +1,15 @@
+If a string has all unique characters or not, if not return the first index of the duplicated character
+
+string1 = ['a','p','p','o','l','l','o']
+new_str=[]
+
+def unique(string):
+    for idx, char in enumerate(string1):
+        if char not in new_str:
+            new_str.append(char)
+            
+        else:
+            
+            print(idx, char)
+            
+            
